@@ -21,7 +21,9 @@
 title: JB WORLD
 email: regenbogenforelle@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi call me JB if need to.   
+  Hi call me JB if need to. 
+  I'm currently physics major (and mathematics minor) at university in South Korea. 
+  My another interests are cognitive Philosophy, art theory, riddles and other plays which all on experimental mind.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ki11dee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
