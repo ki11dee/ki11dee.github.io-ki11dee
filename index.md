@@ -11,8 +11,8 @@ I'm currently physics major at university in South Korea. One reason I made here
 
 Main interests: 
 
-1. Physics, mathematical logic, Art theory: home base.
-Additional tags
+1. Physics, Art theory: home base.
+Additional tags are below:
 - Classical Mechanics [CM]
 - Electrodynamics [ED]
 - Relativity [R]
@@ -22,9 +22,11 @@ Additional tags
 - Solid State Physics [SP]
 - Mathematical Physics [MP]
 - Computational Physics [CP]
+- Some art portfolios of mine [BP]
 
 2. Philosophy, language: second base
 
 3. Tactics, music theory, riddle: some simple curiosities
+- riddle
 
 4. Rubik's cube, violin, SF, spooky tales, other play: experimental mind.
