@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: JB WORLD
-email: regenbogenforelle@naver.com
+logo : assets/img/ue.png
 description: >- # this means to ignore newlines until "baseurl:"
   Hi call me JB if need to.
   
