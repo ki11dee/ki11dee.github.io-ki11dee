@@ -25,6 +25,7 @@ Additional tags [tag_link] are below:
 - Some art portfolios [BP]
 
 2. Philosophy, language: second base
+- Philosophy [P]
 
 3. Tactics, music theory, riddle: simple curiosities
 - Music Theory
