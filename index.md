@@ -21,7 +21,7 @@ Main interests:
 - Solid State Physics [SP](./SP/SP_content.html)
 - Mathematical Physics [MP](./MP/MP_content.html)
 - Computational Physics [CP](./CP/CP_content.html)
-- Some art portfolios [BP]
+- Some art portfolios [BP](./BP/BP_content.html)
 
 2. Philosophy, language \| second base
 - Philosophy [P](./P/P_content.html)
