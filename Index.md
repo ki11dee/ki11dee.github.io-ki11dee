@@ -21,7 +21,7 @@ Additional tags are below:
 - Quantum Field Theory [QFT]
 - Solid State Physics [SP]
 - Mathematical Physics [MP]
-- Computational Physics [CP]
+- Computational Physics [CP](./CP/)
 - Some art portfolios [BP]
 
 2. Philosophy, language: second base
