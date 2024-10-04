@@ -6,13 +6,12 @@ layout: default
 title: "Welcome to My Blog"
 ---
 
-This is my first post on my new blog.
-I'm currently physics major at university in South Korea. One reason I made here was making an archive of mine(and the other is just for studying, recording, and surfing). My native language is Korean so I'm planning to translate some of my notes from my private blog to here. 
+![Hi](./assets/img/img.jpg)
+Hi I'm currently physics major at university in South Korea. One reason I made here was making an archive of mine(and the other is just for studying, recording, and surfing). My native language is Korean so I'm planning to translate some of my notes from my private blog to here. 
 
 Main interests: 
 
-1. Physics, Art theory: home base.
-Additional tags [tag_link] are below:
+1. Physics, Art theory | home base. Additional tags [tag_link] are below:
 - Classical Mechanics [CM]
 - Electrodynamics [ED](./ED/ED_content.html)
 - Relativity [R]
@@ -24,11 +23,11 @@ Additional tags [tag_link] are below:
 - Computational Physics [CP](./CP/CP_content.html)
 - Some art portfolios [BP]
 
-2. Philosophy, language: second base
+2. Philosophy, language | second base
 - Philosophy [P]
 
-3. Tactics, music theory, riddle: simple curiosities
+3. Tactics, music theory, riddle | simple curiosities
 - Music Theory
 - Riddle
 
-4. Rubik's cube, violin, SF, spooky tales, other play: experimental mind.
+4. Rubik's cube, violin, SF, spooky tales, other play | experimental mind.
