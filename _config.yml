@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: JB WORLD
-logo : assets/img/24eds.png
+logo : /assets/img/24eds.png
 description: >- # this means to ignore newlines until "baseurl:"
   Hi call me JB if need to.
   

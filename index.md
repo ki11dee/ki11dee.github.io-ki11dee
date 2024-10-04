@@ -30,4 +30,4 @@ Main interests:
 - Music Theory
 - Riddle
 
-4. Rubik's cube, violin, SF, spooky tales, other play | experimental mind.
+4. Cubing, SF, spooky tales, other play | experimental mind.
