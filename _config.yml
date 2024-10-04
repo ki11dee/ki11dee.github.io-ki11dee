@@ -29,7 +29,7 @@ url: "https://ki11dee.github.io" # the base hostname & protocol for your site, e
 github_username:  ki11dee
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
 #  - jekyll-feed
   - jekyll-seo-tag
