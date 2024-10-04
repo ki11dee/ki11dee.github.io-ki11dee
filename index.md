@@ -19,15 +19,14 @@ Main interests:
 - Thermal and Statistical Physics [TSP](./TSP/TSP_content.html)
 - Quantum Field Theory [QFT](./QFT/QFT_content.html)
 - Solid State Physics [SP](./SP/SP_content.html)
-- Mathematical Physics [MP]
+- Mathematical Physics [MP](./MP/MP_content.html)
 - Computational Physics [CP](./CP/CP_content.html)
 - Some art portfolios [BP]
 
 2. Philosophy, language | second base
-- Philosophy [P]
+- Philosophy [P](./P/P_content.html)
 
 3. Tactics, music theory, riddle | simple curiosities
-- Music Theory
-- Riddle
+- Art Theory and Riddles [R](./R/R_content.html)
 
 4. Cubing, SF, spooky tales, other play | experimental mind.
