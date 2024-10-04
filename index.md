@@ -12,7 +12,7 @@ I'm currently physics major at university in South Korea. One reason I made here
 Main interests: 
 
 1. Physics, Art theory: home base.
-Additional tags are below:
+Additional tags [tag_link] are below:
 - Classical Mechanics [CM]
 - Electrodynamics [ED]
 - Relativity [R]
@@ -21,7 +21,7 @@ Additional tags are below:
 - Quantum Field Theory [QFT]
 - Solid State Physics [SP]
 - Mathematical Physics [MP]
-- Computational Physics [CP](./CP/)
+- Computational Physics [CP](./CP/CP_content.html)
 - Some art portfolios [BP]
 
 2. Philosophy, language: second base
