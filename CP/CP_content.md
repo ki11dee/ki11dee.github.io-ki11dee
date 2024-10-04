@@ -1,4 +1,4 @@
-# Computationaml Physics
+# Computational Physics
 
 Here are the lists in Computational Physics tag:
 
