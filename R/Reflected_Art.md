@@ -2,7 +2,7 @@
 
 ![M.C. Escher's *Prentententoonstelling*, featuring a masterful use of curved perspective.](https://i.imgur.com/tLNJww1.png)
 
-The way we understand art fundamentally carries duality. One aspect is aesthetic, and artistic value can be traced back to Aristotle's physics era in science, where beauty is understood in the same sense as the geometric beauty (symmetry) defined by Pythagoras or the meaning expressed by Aquinas: beauty is that which pleases the senses (id quod visum placet)! In the subfields of science that follow Kantianism, the definition of art appreciation isn't dealt with in grand terms but is confined to neural responses inside the human body **[1]**. On the other hand, art history rejects this aesthetic perspective as outdated and strictly refuses to interpret it as such. Another way to understand art is as described by Arthur Danto in After the End of Art: modern art has evolved in a way that completely shatters the form of art as aesthetics. *"No one can say what is or isn't art anymore. The end has come. Thanks to Warhol, it's no longer possible to distinguish something that is art from something that isn't"* (You can't say something is art or not art anymore. That is all finished. Warhol made it no longer possible to distinguish something that is art from something that is not).
+The way we understand art fundamentally carries duality. One aspect is aesthetic, and artistic value can be traced back to Aristotle's physics era in science, where beauty is understood in the same sense as the geometric beauty (symmetry) defined by Pythagoras or the meaning expressed by Aquinas: beauty is that which pleases the senses (id quod visum placet)! In the subfields of science that follow Kantianism, the definition of art appreciation isn't dealt with in grand terms but is confined to neural responses inside the human body **[1]**. On the other hand, art history rejects this aesthetic perspective as outdated and strictly refuses to interpret it as such. Another way to understand art is as described by Arthur Danto in After the End of Art: modern art has evolved in a way that completely shatters the form of art as aesthetics. *You can't say something is art or not art anymore. That is all finished. Warhol made it no longer possible to distinguish something that is art from something that is not.*
 
 ![Warhol's *Brillo Box*](https://i.imgur.com/KLtldjf.jpeg)
 
@@ -48,7 +48,7 @@ At this point, the artist's mind becomes a concentration and summation of the hu
 
 ## b. On Art and Artistry
 
-Where is art (Art), what is it, and how does it exist? Is there a better direction for art? Art is notoriously difficult to describe, capable of evoking feelings of aesthetic or sublime pleasure in viewers, or alternatively feelings of bizarre, filthy, and ugly discomfort, or even all of these feelings simultaneously. Clearly, defining art requires appropriately evaluating the following basic elements:
+Where is art, what is it, and how does it exist? Is there a better direction for art? Art is notoriously difficult to describe, capable of evoking feelings of aesthetic or sublime pleasure in viewers, or alternatively feelings of bizarre, filthy, and ugly discomfort, or even all of these feelings simultaneously. Clearly, defining art requires appropriately evaluating the following basic elements:
 
 (1) The artwork
 
