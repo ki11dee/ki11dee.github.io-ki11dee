@@ -2,3 +2,45 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+/* assets/css/main.css */
+.copy-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+/* assets/css/main.css */
+details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  details[open] summary {
+    color: #0056b3;
+  }
+/* Reading Progress Bar  */
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: #007bff;
+    z-index: 1000;
+  }  
