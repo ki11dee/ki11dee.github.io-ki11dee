@@ -3,8 +3,8 @@
 - [Complex Variable Theory](./Complex%20Variable%20Theory.html)
 - [Special Functions](./special_functions.html)
 - [Linear Algebra](./linear_algebra.html)
-- [Operator Theory]
-- [Spectral Theory]
+- [Operator Theory](./operator.html)
+- [Spectral Theory](./Spectral.html)
 - [Differential Equations](./de.html)
 - [Group Theory]
 - [Category Theory]
