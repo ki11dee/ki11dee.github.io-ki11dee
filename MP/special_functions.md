@@ -37,7 +37,8 @@ $\nabla = \hat{r} \frac{\partial}{\partial  r} + \hat{\theta} \frac{1}{r}\frac{
 
 $\nabla^2 = \frac{1}{r^2}\frac{\partial}{\partial  r}\left( r^2 \frac{\partial}{\partial r} \right) + \frac{1}{r^2 \sin{\theta}} \frac{\partial}{\partial \theta} \left( \sin{\theta}\frac{\partial}{\partial \theta} \right)+ \frac{1}{r^2\sin^2{\theta}}\frac{\partial^2}{\partial \varphi^2}$ 
 
-Legendre Polynomials:  $\rightarrow (1-x^2)P_l''(x) - 2xP_l'(x) + l(l+1)P_l(x) = 0$ 
+Legendre Polynomials:  
+$\rightarrow (1-x^2)P_l^{\''}(x) - 2xP_l'(x) + l(l+1)P_l(x) = 0$ 
 
 Generating function:  $g(x,t) = (1-2xt+t^2)^{-1/2} = \sum_{l=0}^\infty P_l(x)t^l$ 
 
@@ -55,7 +56,7 @@ Shifted Legendre Polynomial
 
 ## Associated Legendre Equation
 
-$(1-x^2)P''(x) - 2xP'(x) + \left[ l(l+1)-\frac{m^2}{1-x^2} \right] P(x) = 0$ 
+$(1-x^2)P{\''}(x) - 2xP'(x) + \left[ l(l+1)-\frac{m^2}{1-x^2} \right] P(x) = 0$ 
 
 Try $P(x) = (1-x^2)^{m/2}\mathcal{P}(x)$, assuming $\mathcal{P}(x) = \sum_{j=0}^\infty a_j x^j$
 
@@ -63,15 +64,16 @@ Reccurence Formulas: $a_{j+2} = a_j \left[ \frac{j^2+(2m+1)j-l(l+1)+m(m+1)}{(j+2
 
 Associated Legendre Function:  
 $P_l^m(x) = (1-x^2)^{m/2} \mathcal{P}_l^m (x) = (-1)^m (1-x^2)^{m/2} \frac{d^m}{dx^m}P_l(x)$
-meaning that the associated Legendre function can be obtained by differentiating the normalized Legendre function \( P_l(x) \) with respect to \( x \), \( m \) times.
+meaning that the associated Legendre function can be obtained by differentiating the normalized Legendre function $ P_l(x)$ with respect to $x , m $ times.
 
 Rodrigues formula: $P_l^m(x) = \frac{(-1)^m}{2^l l!}(1-x^2)^{m/2}\left( \frac{d}{dx} \right)^{l+m} (x^2-1)^l$
 
-Generating function for $\mathcal{P}_{l+1}^m(x)$: 
+Generating function for $\mathcal{P_{l+1}^m}:$
 $g(x,t) = \frac{(-1)^m(2m-1)!!}{(1-2tx+t^2)^{m+1/2}}=\sum_{s=0}^\infty \mathcal{P}_{s+m}^m(x)t^s$
 
-Reccurence formula: 
-$(l-m+1) \mathcal{P}_{l+1}^m(x)-(2l+1)x \mathcal{P}_l^m(x) + (l+m) \mathcal{P}_{l-1}^m(x)=0$
+Reccurence formula:
+
+$(l-m+1) \mathcal{P_{l+1}^m}(x)-(2l+1)x \mathcal{P_l^m}(x) + (l+m) \mathcal{P}_{l-1}^m(x)=0$
 
 $\mathcal{P}_{m+1}^m=(2m+1)x\mathcal{P}_m^m$
 
@@ -128,13 +130,28 @@ Spherical Bessel Functions
 
 # 6. More Special Functions
 
-Hermite Function
+**Hermite Polynomials**
 
-Laguerre Function
+There's a class which can be solved by Laplace's method. $H_n(x)$ satisfy the differential equation $y\{''}-2xy'+2ny=0$. Using complex integral you can get the solution 
+$H_n(x)=(-1)^n e^{x^2}\frac{d^n}{dx^n}e^{-x^2}$
 
-Chebyshev Polynomials
+**Airy Function**
 
-[Polylogarithm](https://www.blogger.com/blog/post/edit/5836959991896979253/6973115788995683442#), [Dilogarithm](https://www.blogger.com/blog/post/edit/5836959991896979253/6973115788995683442#)
+This is also of Laplace's type, the solution of the equation $y\{''}-xy=0$.
+
+**Confluent Hypergeometric Function**
+
+$F(\alpha, \gamma, z)=1+\frac{\alpha}{\gamma}\frac{z}{1!}+\frac{\alpha(\alpha+1)}{\gamma(\gamma+1)}\frac{z^2}{2!}+\dots$ which satisfy the differential equation $zu\{''+(\gamma-z)u'-\alpha u=0}$
+
+**Hypergeometric Function**
+
+$F(\alpha, \beta, \gamma, z)=1+\frac{\alpha \beta}{\gamma}\frac{z}{1!}+\frac{\alpha(\alpha+1)\beta(\beta+1)}{\gamma(\gamma+1)}\frac{z^2}{2!}+\dots$ which is defined in the circle $\|z\|<1$ and for $\|z\|>1$ obtained by its alaytical continuation. This is a particular integral of the differential equation $z(1-z)u\{''}+[\gamma-(\alpha+\beta+1)z]u'-\alpha \beta u=0$.
+
+**Laguerre Function**
+
+**Chebyshev Polynomials**
+
+[Polylogarithm](https://mathworld.wolfram.com/Polylogarithm.html), [Dilogarithm](https://mathworld.wolfram.com/Dilogarithm.html)
 
 
 ---
@@ -142,3 +159,5 @@ Chebyshev Polynomials
 *Mathematical Methods for Physicists*, Arfken
 
 Various reading materials on the Internet
+
+*Quantum Mechanics*, Landau
