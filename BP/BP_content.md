@@ -2,6 +2,8 @@
 
 ## Overview of This Category
 
+![Hi](/assets/img/img.jpg)
+
 Why do I draw things? Actually I don't know. I just like to since I was a kid. This category is for uploading my arts-illustrations, comics, and doodles.
 
 Originally the BP series began as a realistic comic set in the 20th century, but it faced many limitations in its depiction, and most importantly, it struggled with clear genre classification. After some deliberation I decided to abandon trying to fit it into a specific genre and instead create a graphic novel simply titled **BP**. 
