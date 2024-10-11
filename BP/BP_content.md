@@ -1,5 +1,8 @@
 # BP
 
+- [Death and the Good](./DG/dg.html)
+
+
 ## Overview of This Category
 
 ![Hi](/assets/img/img.jpg)
