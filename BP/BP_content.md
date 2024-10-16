@@ -1,6 +1,8 @@
 # BP
 
-- [Death and the Good](./DG/dg.html)
+- [Death and the Good ](./DG/dg.html)
+- [DOGMAIAMGOD]
+- [The Meanings]
 
 
 ## Overview of This Category
