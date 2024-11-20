@@ -6,7 +6,7 @@ Here are the lists in Computational Physics tag:
     - [Pytorch]
     - [Tenserflow]
 - CrySPY
-    - [CrySPY in ASE](./2024-10-04-CrySPY.html)
+    - [CrySPY tutorial](./2024-10-04-CrySPY.html)
     - [Evolutionary Algorithm in ASE](./ASE_EA.html)
 - [PINN]
 - [Scientific Computation with Python, Matlab and Mathematica]
