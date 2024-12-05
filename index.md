@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: "Welcome to My Blog"
+title: "Welcome"
 ---
 
 ![Hi](/assets/img/160435.png)

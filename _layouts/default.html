@@ -34,6 +34,8 @@
     <script src="/assets/js/progress-bar.js"></script>
     <script src="/assets/js/copy-code.js"></script>
     <script src="/assets/js/toggle-enhance.js"></script>
+
+
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -66,4 +68,21 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const createSnowflake = () => {
+        const snowflake = document.createElement('div');
+        snowflake.className = 'snowflake';
+        snowflake.textContent = '❄';
+        snowflake.style.left = Math.random() * 100 + 'vw';
+        snowflake.style.animationDuration = Math.random() * 7 + 3 + 's';
+  
+        document.body.appendChild(snowflake);
+        snowflake.addEventListener('animationend', () => {
+          snowflake.remove();
+        });
+      };
+      setInterval(createSnowflake, 800);
+    });
+  </script>
 </html>
