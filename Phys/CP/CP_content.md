@@ -5,9 +5,10 @@ Here are the lists in Computational Physics tag:
 - Machine Learning and Deep Learning
     - [Pytorch]
     - [Tenserflow]
-- CrySPY
+- Crystal Structure Prediction using ML
     - [CrySPY tutorial](./2024-10-04-CrySPY.html)
-    - [Evolutionary Algorithm in ASE](./ASE_EA.html)
+    - [Evolutionary Algorithm]
+    - [InvDesFlow]
 - [PINN]
 - [Scientific Computation with Python, Matlab and Mathematica]
 - [Numerical Methods for Differential Equations](./numerical_method.html)
