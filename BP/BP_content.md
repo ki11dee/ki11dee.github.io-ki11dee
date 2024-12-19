@@ -2,10 +2,12 @@
 
 - [Death and the Good ](./DG/dg.html)
 - [DOGMAIAMGOD]
-- [The Meanings]
+- [Short Sketches and typescripts]
+    - [The Meanings]
+    - [Dual Space](./SS/Dual_Space.html)
 
 
-## Overview of This Category
+## Overview of this Category
 
 ![Hi](/assets/img/img.jpg)
 
