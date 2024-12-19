@@ -3,6 +3,31 @@
 
 @import "jekyll-theme-minimal";
 
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.social-links a:hover {
+  color: #0073e6;
+}
+
+.social-links i {
+  margin-right: 8px;
+}
+
 /* assets/css/main.css */
 .copy-button {
     background-color: #007bff;

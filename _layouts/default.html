@@ -45,7 +45,18 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
+        <nav class="social-links">
+          <ul>
+            {% for link in site.social_links %}
+              <li>
+                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+                  <i class="fa {{ link.icon }}"></i>
+                  <span>{{ link.name }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -60,9 +71,6 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
@@ -74,7 +82,7 @@
         const snowflake = document.createElement('div');
         snowflake.className = 'snowflake';
         snowflake.textContent = "❅";
-        snowflake.style.left = Math.random() * 100 + 'vw';
+        snowflake.style.left = Math.random() * 200 + 'vw';
         snowflake.style.animationDuration = Math.random() * 7 + 3 + 's';
   
         document.body.appendChild(snowflake);
