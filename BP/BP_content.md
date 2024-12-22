@@ -1,8 +1,8 @@
 # BP
 
 - [Death and the Good ](./DG/dg.html)
-- [DOGMAIAMGOD]
 - [Short Sketches and typescripts]
+    - [DOGMAIAMGOD](./SS/DOGMA.html)
     - [The Meanings]
     - [Dual Space](./SS/Dual_Space.html)
 
