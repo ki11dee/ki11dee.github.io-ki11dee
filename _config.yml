@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: '|&lt;r|ψ&gt;|²'
+title: '|&lt;◊|ψ&gt;|²'
 logo : /assets/img/santahat.png
 description: >- # this means to ignore newlines until "baseurl:"
   Popcorn
