@@ -6,26 +6,26 @@ One of the qualitative ways to analyze a Rubik's Cube is through group theory, b
 
 One question I have is: if the rotation angle of the Rubik's Cube is 90 degrees, can combination puzzles with angles other than 90 degrees also be solved using n-cycles? From what I understand, puzzles styled after the Rubik's Cube—excluding cubes—such as Pyraminx, Megaminx, Gigaminx, Incrediballs, etc., always involve even permutations, meaning they can all be solved with 3-cycles...???. If you think about it, while cubes don’t have corners that act as rotational axes, some non-cube puzzles (like the Magic Ball, which is sphere-shaped but part of the cube family, and the Skewb, which isn’t exactly a cube...) do twist around their vertices. All puzzles, except for the octahedron, form even permutations when twisted around their vertices, which means it might suffice to just look at the octahedron as the exception. So, is it reasonable to mix algebraic and geometric approaches like this...? It seems like the key is in how to quantify the states of corners and edges. One source uses four position vectors, while another takes a group-theoretical approach. (Some cubes—or puzzles with entirely different mechanisms—are simply too complex to even attempt calculations...)
 
-# Cubological Analogy of Particle Physics?
+## Cubological Analogy of Particle Physics?
 
 Among the Rubik's Cube (3x3x3) patterns, there are patterns nicknamed "meson" and "giant meson." They involve a corner cubie that is twisted one-third of the way and another corner located diagonally opposite, with these two corners acting as a quark-antiquark pair, and corner 3-cycles viewed as baryons. One of the early inspirations for this kind of naming in magic cubology came from Durham, the creator of Skewb, who compared the Pyraminx to hadrons and strong interactions. Since the Pyraminx shares the same structure as a 3x3x3 cube, this idea can be applied directly to the Rubik's Cube. CERN even sold a cube called the "Perfect Fluid of Quarks" ([Qbe](https://www.researchgate.net/publication/313879541_Qbe_Quark_Matter_on_Rubik's_Cube)), based on this analogy. Playing with this involves, for example, selecting an up quark and down quark pair, and then rotating the face corresponding to a corner cubie (UBLR ublr) in the positive or negative direction, assigning + for forward and - for reverse. This would result in something like $ \pi^{+} (u \bar{d}) $, $ \Delta ^{0} (udd) $, and proton (uud) being represented as (+000 +000), (+000 ++00), (++00 +000), respectively. Parity symmetries form an abelian group $ \mathbb{Z}_2 $, and the cube’s permutation group is a product of two alternating groups with a semidirect product with $ \mathbb{Z}_2 $. The general consensus is, "A coincidence, but a beautiful one at that." It’s not easy to make all the physical quantities conserved since this involves matching cubie movements to hadron interaction rules, but you could loosely create a "game" out of it (though it would require a lot of trial and error). Ultimately, this serves as a powerful "metaphor" for the Standard Model.
 
 One special cube is named after the physicist Sir Roger Penrose, called the Penrose Cube. (Its appearance resembles a Penrose triangle, hence the name.) Despite having only three sides, it satisfies parity conditions and can be solved...
 
-# Music and Group Theory
+## Music and Group Theory
 
 (Not a musical morphism) (lol)
 
 Just as there is a baryon octet, in music, we find that notes form a circle of fifths (mod 12). Musical groups can be represented using groups that are isomorphic to infinite dihedral groups. Of course, you could place musical notes on the faces of a cube and play them. It could be fun to write code for this!
 
 
-## Code Simulation Demo
+### Code Simulation Demo
 
 to be uploaded
 
 
-
-# References
+--- 
+## References
 
 [The Fundamental Theorem of Cubology](https://www.sfu.ca/~jtmulhol/math302/puzzles-rc-cubology.html)
 

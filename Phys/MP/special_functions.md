@@ -1,6 +1,6 @@
 # Special Functions
 
-# 1. Gamma Function
+## 1. Gamma Function
 
 [https://dlmf.nist.gov/5](https://www.blogger.com/blog/post/edit/5836959991896979253/6973115788995683442#)
 
@@ -19,7 +19,7 @@ $\Gamma(z) = \int_0^\infty e^{-t}t^{z-1} dt , \quad Re(z) >0$
 
 $\Gamma(z)= 2 \int_0^\infty e^{-t^2}t^{2z-1}dt, \quad \Gamma(1/2) = \sqrt{\pi}$
 
-# 2. Riemann Zeta Function
+## 2. Riemann Zeta Function
 
 Definition (available only the infinite series converge)
 
@@ -29,9 +29,9 @@ $\zeta(z) = \frac{1}{\Gamma(z)} \int_0^\infty \frac{t^{z-1}}{e^t-1} dt$
 
 Analytic continuation of zeta function
 
-# 3. Legendre Functions
+## 3. Legendre Functions
 
-## Legendre ODE, regular Legendre equation
+### Legendre ODE, regular Legendre equation
 
 $\nabla = \hat{r} \frac{\partial}{\partial  r} + \hat{\theta} \frac{1}{r}\frac{\partial}{\partial \theta} + \hat{\varphi}\frac{1}{r \sin{\theta}}\frac{\partial}{\partial \varphi}$ 
 
@@ -54,7 +54,7 @@ Legendre Series: Given a function $f(x)$ defined in the interval $x \in (-1,1)$,
 
 Shifted Legendre Polynomial
 
-## Associated Legendre Equation
+### Associated Legendre Equation
 
 $(1-x^2)P{\''}(x) - 2xP'(x) + \left[ l(l+1)-\frac{m^2}{1-x^2} \right] P(x) = 0$ 
 
@@ -88,7 +88,7 @@ Orthogonality: $\int_{-1}^1 P_p^m(x) P_q^m(x)dx = \frac{2}{2p+1}\frac{(p+m)!}{(p
 
 ![Associated Legendre Polynomials](https://blogger.googleusercontent.com/img/a/AVvXsEivIq7CVGFDk9J46QZceZSGMakspkX_lJoMm1Nn6nBoasl3FaBorNoGpoke1mhnBxspr_BKaApWCLZpIdx0zoxl0OZ_w0EiRlM6lIuBl45IKwD7gBW0BE0bMrZ6o2WCz3tS2VpewThrrHB28lNChU7ZB7t9OnqcfstVeqGfKwVtw6tMJ0oNjIwZEVfR9eQ)
 
-# 4. Spherical Harmonics
+## 4. Spherical Harmonics
 
  $\nabla^2\Psi + V(r)\Psi = \lambda \Psi$ 
 
@@ -114,7 +114,7 @@ $\Psi(r, \theta, \varphi) = \sum_{l=0}^\infty \sum_{m=-l}^l \left( a_{lm}r^l + b
 
 
 
-# 5. Bessel Function
+## 5. Bessel Function
 [https://dlmf.nist.gov/10](https://dlmf.nist.gov/10)
 [Bessel function](https://en.wikipedia.org/wiki/Bessel_function)
 
@@ -128,7 +128,7 @@ Modified Bessel Functions
 
 Spherical Bessel Functions
 
-# 6. More Special Functions
+## 6. More Special Functions
 
 **Hermite Polynomials**
 
@@ -155,7 +155,7 @@ $F(\alpha, \beta, \gamma, z)=1+\frac{\alpha \beta}{\gamma}\frac{z}{1!}+\frac{\al
 
 
 ---
-# References
+## References
 *Mathematical Methods for Physicists*, Arfken
 
 Various reading materials on the Internet

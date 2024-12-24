@@ -7,5 +7,5 @@ This category basically includes college and graduate level CM and Classical fie
 - [Dynamics and Relativity]
 - [Lagrangian Formulation]
 - [The Motion of Rigid Bodies]
-- [The Hamiltoniam Formulation]
+- [The Hamiltonian Formulation]
 - [KAM Theory]

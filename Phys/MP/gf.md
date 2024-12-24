@@ -3,5 +3,5 @@
 
 
 ---
-# References
+## References
 *Mathematical Methods for Physicists*, Arfken

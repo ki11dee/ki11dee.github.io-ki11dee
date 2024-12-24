@@ -1,6 +1,10 @@
 # Differential Equations
 
-# Ordinary Differential Equations
+## Related Topics
+- [Scientific Computation with Python, Matlab and Mathematica]
+- [Numerical Methods to solve PDEs](/Phys/CP/numerical_method.html)
+
+## Ordinary Differential Equations
 
 ### First-Order Equations
 
@@ -9,7 +13,7 @@
 ### Series Solutions
 
 
-# Partial Differential Equations
+## Partial Differential Equations
 
 ### First-Order Equations
 
@@ -23,16 +27,11 @@
 
 ### Dispersive PDEs
 
-### 
 
 
 ---
 
-# Related Topics
-- [Scientific Computation with Python, Matlab and Mathematica]
-- [Numerical Methods to solve PDEs]
-
-# References
+## References
 [Differential Equation](https://en.wikipedia.org/wiki/Differential_equation)
 
 [ODE](https://en.wikipedia.org/wiki/Ordinary_differential_equation)
