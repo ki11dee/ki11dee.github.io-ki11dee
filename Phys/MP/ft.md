@@ -97,7 +97,7 @@ $$
 u(x,t) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^\infty \hat{u}(k,0)e^{i(kx-\omega t)}dk
 $$
 
-Here, $\hat{u}(k,0)$ is the Fourier transform of the initial condition $u(x,0)$, and $k = \frac{2\pi}{\lambda}$ is the wavenumber, satisfying the relation $\omega = c|k|$. The Fourier transform converts oscillations occurring in space and time into the frequency domain, allowing analysis of each component.
+Here, $\hat{u}(k,0)$ is the Fourier transform of the initial condition $u(x,0)$, and $k = \frac{2\pi}{\lambda}$ is the wavenumber, satisfying the relation $\omega = c\|k\|$. The Fourier transform converts oscillations occurring in space and time into the frequency domain, allowing analysis of each component.
 
 In the large-$n$ limit, the delta function $\delta_n(t) = \frac{1}{2\pi} \int_{-n}^n e^{i\omega t}d\omega$ is especially useful in Fourier analysis and helps derive results for Fourier integrals:
 
@@ -195,14 +195,23 @@ The Quantum Fourier Transform (QFT) is the quantum analog of the classical Fouri
 
 Fourier transform spectroscopy leverages the Fourier transform to analyze the spectral components of signals, widely applied in fields such as optics and remote sensing.
 
+
+(to be modified)
+
 ---
 
 ## References
 
-- [Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
-- [But what is a Fourier series? From heat flow to drawing with circles](https://youtu.be/r6sGWTCMz2k?si=7qbcgFs99zq7Rqel)
-- [But what is the Fourier Transform? A visual introduction.](https://youtu.be/spUNpyF58BY?si=ERk6tVKPGpCU2s79)
-- [But what is a convolution?](https://youtu.be/KuXjwB4LzSA?si=fY-nNP6YwLxpBnsn)
-- [Convolutions | Why X+Y in probability is a beautiful mess](https://youtu.be/IaSGqQa5O-M?si=nc6fMDvYEkgGmeRk)
-- [The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0?si=1LbfkI8O8BAHTUBK)
-- *Mathematical Methods for Physicists*, Arfken
+[Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
+
+[But what is a Fourier series? From heat flow to drawing with circles](https://youtu.be/r6sGWTCMz2k?si=7qbcgFs99zq7Rqel)
+
+[But what is the Fourier Transform? A visual introduction.](https://youtu.be/spUNpyF58BY?si=ERk6tVKPGpCU2s79)
+
+[But what is a convolution?](https://youtu.be/KuXjwB4LzSA?si=fY-nNP6YwLxpBnsn)
+
+[Convolutions \| Why X+Y in probability is a beautiful mess](https://youtu.be/IaSGqQa5O-M?si=nc6fMDvYEkgGmeRk)
+
+[The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0?si=1LbfkI8O8BAHTUBK)
+
+*Mathematical Methods for Physicists*, Arfken
