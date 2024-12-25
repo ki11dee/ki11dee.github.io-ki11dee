@@ -46,6 +46,7 @@ In Neo-Riemannian theory, harmonic ideas are visualized as geometric structures 
 The main transformation operations in the Tonnetz are based on parsimonious voice leading between chords, where minimal note movement occurs. By fixing two notes in a chord and moving the remaining note to the closest neighbor, the progression smoothly connects chords. These operations are typically called P, L, and R transformations, though other transformations also exist.  
 
 ![Transformations](https://storage.gmth.de/zgmth/media/1009/Rieke_Tonnetz_01.png)
+
 PLR-group $G=<P,L,R\|P=R(LR)^3,(LR)^{12}=P^2=(PLR)^2=1>$is isomorphic to T/I group $D_{24}$.
 
 - Relative
