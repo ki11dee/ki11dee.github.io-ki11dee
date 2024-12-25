@@ -1,4 +1,4 @@
-# Cipher
+# Gold Bug and CTM
 
 In *The Gold-Bug* by Edgar Allan Poe, the protagonist's friend Legrand uses a decryption method for Captain Kidd's cryptogram based on the frequency stability of encoded symbols. Poe was well-versed in cryptography, as evidenced by a short treatise on cryptography that he wrote before publishing the novel, which explained the basic principles of cryptography in detail. Indeed, Poe had a notable talent for solving ciphers.
 

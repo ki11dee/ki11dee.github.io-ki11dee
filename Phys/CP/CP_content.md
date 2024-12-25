@@ -4,7 +4,7 @@ Here are the lists in Computational Physics tag:
 
 - Machine Learning and Deep Learning
     - [Pytorch]
-    - [Tenserflow]
+    - [Tensorflow]
 - Crystal Structure Prediction using ML
     - [CrySPY tutorial](./2024-10-04-CrySPY.html)
     - [Evolutionary Algorithm]
