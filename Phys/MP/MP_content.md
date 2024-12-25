@@ -23,6 +23,6 @@
 - [Category Theory]
 - [Abstract Algebra and Topology]
     - [Symmetry and Topology Basics](./AAT/Topology_basics.html)
-    - Abstract Alebra Basics
+    - [Abstract Alebra Basics](./AAT/Abstract_basics.html)
     - [Manifolds](./AAT/Manifolds.html)
     - [Differential Form](./AAT/Differential_form.html)
