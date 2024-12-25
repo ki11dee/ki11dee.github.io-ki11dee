@@ -4,10 +4,8 @@
 
 Our matters of interest are:
 
-(1) The conditions under which an ODE can be written as an eigenvalue equation with a self-adjoint (hermitian) operator.
-
-(2) Methods for solving ODEs subject to boundary conditions.
-
+(1) The conditions under which an ODE can be written as an eigenvalue equation with a self-adjoint (hermitian) operator.  
+(2) Methods for solving ODEs subject to boundary conditions.  
 (3) Properties of the solutions in (2).
 
 The general eigenproblem characteristics of second-order differential equations are referred to as **Sturm-Liouville theory**, where the Hermitian operator $\mathcal{L}$ is expressed as:
@@ -45,7 +43,7 @@ From a physical perspective, the string forms standing wave patterns at specific
 
 ## 1. Fourier Series
 
-The Fourier series is defined as a representation of a function or signal as a series of sines and cosines:
+The **Fourier series** is defined as a representation of a function or signal as a series of sines and cosines:
 
 $$
 \begin{aligned}
@@ -85,10 +83,20 @@ Here, $A_n$ and $B_n$ are Fourier coefficients.
 
 ## 2. (Continuous) Fourier Transform
 
-The eigenvalue problems described above generate discrete eigenvalues under finite boundary conditions, which can be represented by Fourier series. However, when a string is infinitely long or boundary conditions are absent, the solution to the wave equation has a continuous frequency spectrum. In such cases, the **Fourier transform** is used, typically defined as:
+The eigenvalue problems described above generate discrete eigenvalues under finite boundary conditions, which can be represented by Fourier series. However, when a string is infinitely long or boundary conditions are absent, the solution to the wave equation has a continuous frequency spectrum. In such cases, the **Fourier transform** is used.  
+The FT is an *analysis* process, decomposing a complex-valued function $f(x)$ defined in time/space domain  into its constituent frequencies function defined in k-space codomain. It is a linear map of a continuous input function ($\mathbb{R} \rightarrow \mathbb{R}$ or $\mathbb{R} \rightarrow \mathbb{C}$) to continuous output function ($\mathbb{R} \rightarrow \mathbb{C}$). The inverse process is *synthesis*. With an analogy, the Fourier series actually is the synthesis formula which maps a continuous domain (real numbers) to discrete frequency components (integer indices).
 
 $$
-g(\omega) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^\infty f(t)e^{i\omega t}dt
+\begin{aligned}
+c_n = \frac{1}{P}\int_{-P/2}^{P/2}f(x)e^{-i2\pi \frac{n}{P}x}dx \quad &\text{: analysis formula} \\ 
+f(x) = \sum_{n=-\infty}^{\infty} c_ne^{i2\pi \frac{n}{P}x}, \quad x \in [-P/2,P/2] \quad &\text{: synthesis formula}
+\end{aligned}
+$$
+
+$P \rightarrow \infty$, the FT is typically defined as:
+
+$$
+\hat{f}(\omega) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^\infty f(t)e^{i\omega t}dt
 $$
 
 For example, the wave equation describing the vibration of an infinitely long string is:
@@ -111,8 +119,8 @@ The inverse Fourier transform is given by:
 
 $$
 \begin{aligned}
-g(\omega) &= \frac{1}{2\pi} \int_{-\infty}^\infty f(t)e^{i\omega t}dt, \\
-f(t) &= \frac{1}{2\pi} \int_{-\infty}^\infty g(\omega)e^{-i\omega t}d\omega
+\hat{f}(\omega) &= \frac{1}{2\pi} \int_{-\infty}^\infty f(t)e^{i\omega t}dt, \\
+f(t) &= \frac{1}{2\pi} \int_{-\infty}^\infty \hat{f}(\omega)e^{-i\omega t}d\omega
 \end{aligned}
 $$
 
@@ -122,8 +130,8 @@ In three-dimensional space, the Fourier transform and its inverse are expressed 
 
 $$
 \begin{aligned}
-g(\mathbf{k}) &= \frac{1}{(2\pi)^{3/2}} \int f(\mathbf{r})e^{i\mathbf{k \cdot r}}d^3r, \\
-f(\mathbf{r}) &= \frac{1}{(2\pi)^{3/2}} \int g(\mathbf{k})e^{-i\mathbf{k \cdot r}}d^3k
+\hat{f}(\mathbf{k}) &= \frac{1}{(2\pi)^{3/2}} \int f(\mathbf{r})e^{i\mathbf{k \cdot r}}d^3r, \\
+f(\mathbf{r}) &= \frac{1}{(2\pi)^{3/2}} \int \hat{f}(\mathbf{k})e^{-i\mathbf{k \cdot r}}d^3k
 \end{aligned}
 $$
 
@@ -133,67 +141,104 @@ Some key properties of the Fourier transform are:
 
 $$
 \begin{aligned}
-\left[f(\mathbf{r-R})\right]^T(\mathbf{k}) &= e^{i\mathbf{k \cdot R}}g(\mathbf{k}) \quad \text{: translation}, \\
-\left[f(\alpha \mathbf{r})\right]^T(\mathbf{k}) &= \frac{1}{\alpha^3}g(\alpha^{-1}\mathbf{k}) \quad \text{: change of scale}, \\
-\left[f(-\mathbf{r})\right]^T(\mathbf{k}) &= g(-\mathbf{k}) \quad \text{: sign change}, \\
-\left[f^*(-\mathbf{r})\right]^T(\mathbf{k}) &= g^*(\mathbf{k}) \quad \text{: complex conjugation}, \\
-\left[\nabla f(\mathbf{r})\right]^T(\mathbf{k}) &= -i\mathbf{k}g(\mathbf{k}) \quad \text{: gradient}, \\
-\left[\nabla^2 f(\mathbf{r})\right]^T(\mathbf{k}) &= -k^2g(\mathbf{k}) \quad \text{: Laplacian}
+\left[f(\mathbf{r-R})\right]^T(\mathbf{k}) = e^{i\mathbf{k \cdot R}}\hat{f}(\mathbf{k}) \quad &\text{: translation}, \\
+\left[f(\alpha \mathbf{r})\right]^T(\mathbf{k}) = \frac{1}{\alpha^3}\hat{f}(\alpha^{-1}\mathbf{k}) \quad &\text{: change of scale}, \\
+\left[f(-\mathbf{r})\right]^T(\mathbf{k}) = \hat{f}(-\mathbf{k}) \quad &\text{: sign change}, \\
+\left[f^*(-\mathbf{r})\right]^T(\mathbf{k}) = \hat{f}^*(\mathbf{k}) \quad &\text{: complex conjugation}, \\
+\left[\nabla f(\mathbf{r})\right]^T(\mathbf{k}) = -i\mathbf{k}\hat{f}(\mathbf{k}) \quad &\text{: gradient}, \\
+\left[\nabla^2 f(\mathbf{r})\right]^T(\mathbf{k}) = -k^2\hat{f}(\mathbf{k}) \quad &\text{: Laplacian}
 \end{aligned}
 $$
 
+FT may be defined in some cases for non-integrable functions. $f$ need not be integrable. For example, the FT of the rectangular function is the [sinc function](https://en.wikipedia.org/wiki/Sinc_function), which is not [Lebesgue integrable](https://en.wikipedia.org/wiki/Lebesgue_measure). 
+
+It is not generally possible to write the IFT as a Lebesque integral, but when both $f$ and $\hat{f}$ are integrable, the inverse equality holds for almost every $x$, so the FT is injective on [$L^1(\mathbf{R})$](https://en.wikipedia.org/wiki/Lp_space).
+
 ## 3. Fourier Convolution Theorem
 
-The operation of combining two functions $f(x)$ and $g(x)$ to produce a new function is called convolution, defined as:
+The operation of combining two functions $f(x)$ and $g(x)$ to produce a new function is called [convolution](https://en.wikipedia.org/wiki/Convolution), defined as:
 
 $$
 \begin{aligned}
-(f*g)(x) &= \frac{1}{2\pi} \int_{-\infty}^\infty g(y)f(x-y)dy, \\
+h(x)=(f*g)(x) &= \frac{1}{2\pi} \int_{-\infty}^\infty g(y)f(x-y)dy, \\
 (f*g)(\mathbf{r}) &= \frac{1}{(2\pi)^{3/2}} \int_{-\infty}^\infty g(\mathbf{r'})f(\mathbf{r-r'})d^3r' \quad \text{(in 3D)}
 \end{aligned}
 $$
 
+### [Cross-Correlation Theorem](https://en.wikipedia.org/wiki/Cross-correlation)
+
+$$
+h(x)=(f \star g)(x)=\int_{-\infty}^\infty \overline{f(y)}g(x+y)dy
+$$
+
+### [Parseval Relation (Rayleigh’s Energy Theorem)](https://en.wikipedia.org/wiki/Parseval%27s_theorem)
+
+Let $f(x)$ and $g(x)$ be integrable, and let $\hat{f}(\omega)$ and $\hat{g}(\omega)$ be their FT. If $f, g$ are square-integrable, then
+
+$$
+<f,g>_{L^2}=\int_{-\infty}^\infty f(x)\overline{g(x)}dx=\int_{-\infty}^\infty \hat{f}(\omega)\overline{\hat{g}(\omega)}d\omega
+$$
+
+### [Plancherel Theorem](https://en.wikipedia.org/wiki/Plancherel_theorem)
+
+$$
+||f||^2_{L^2}=\int_{-\infty}^\infty |f(x)|^2dx=\int_{-\infty}^\infty |\hat{f}(\omega)|^2d\omega
+$$
+
+### Related Topics
+- [Convolutional Neural Network]()
+
 ## 4. Signal-Processing Applications
 
-Signal-processing applications of Fourier analysis are diverse, including filtering, compression, and spectral analysis.
+$$ 
+\begin{aligned}
+f(t) &=\frac{1}{2\pi}\int_{-\infty}^\infty F(\omega)e^{i\omega t}d\omega \\ 
+F(\omega) &= \int_{-\infty}^\infty f(t)e^{-i\omega t}dt
 
-## 5. Discrete Fourier Transform
-
-The Fourier series deals with periodic continuous functions and consists of infinite frequency components. The Discrete Fourier Transform (DFT), on the other hand, transforms finite-length sampled data into its frequency components. For a data length of $N$, only $N$ frequency components are calculated, making it widely used in digital signal processing.
-
-## 6. Laplace Transform
-
-The Laplace transform is defined as:
-
-$$
-F(s) = \int_0^\infty f(t)e^{-st}dt \quad \text{where} \quad s = \sigma + i\omega
+\end{aligned}
 $$
 
-The Fourier transform is a special case of the Laplace transform with $\sigma = 0$.
+Here $f(t)$ is a resolution of the pulse into its angular frequency components and $F(\omega)$ a synthesis of the pulse from its components.  
+Now assuming a linear response (but for your information, there are other requirements than linearity that must be satisfied by the response function on physical grounds: reality and causality), let us consider a servomechanism for an input of $f_\omega(t)=F(\omega)e^{i\omega t}$ and output of $g_\omega(t)=\phi(\omega)f_\omega(t)$, where $\phi_\omega(t)$ is called a **transfer function**.
+
+### Related Topics
+- [Kramers-Kronig Relation](https://en.wikipedia.org/wiki/Kramers%E2%80%93Kronig_relations)
+
+## 5. [Discrete Fourier Transform](https://en.wikipedia.org/wiki/Discrete_Fourier_transform)
+
+In real world, we use digital computers with numerically determined FTs, which consist of values given at a *discrete* set of points. Integrations are therefore converted into  *finite* summations, and the number of the points can be *finite* or *infinite*. 
+The Fourier series deals with periodic continuous functions and consists of infinite frequency components. The **Discrete Fourier Transform (DFT)**, on the other hand, transforms *finite discrete* sampled data into its *finite discrete* frequency components. For a data length of $N$, only $N$ frequency components are calculated, making it widely used in digital signal processing.
+
+## 6. [Laplace Transform](https://en.wikipedia.org/wiki/Laplace_transform#Fourier_transform)
+
+The Laplace Transformation is a linear map of a continuous input function ($[0,\infty) \rightarrow \mathbb{R}$ or $[0,\infty) \rightarrow \mathbb{C}$) to a continuous output function ($\mathbb{C} \rightarrow \mathbb{C}$). 
+
+It is defined as:
+
+$$
+F(s) = \mathcal{L}[f(t)]= \int_0^\infty f(t)e^{-st}dt \quad \text{where} \quad s = \sigma + i\omega
+$$
+
+The Fourier transform is a special case of the Laplace transform with $\sigma = 0$. The LT is a mathematical technique used for solving differential equations which transform them into algebraic equations.
 
 ### Properties of Laplace Transformation
 
-The Laplace transform has various useful properties, including linearity, time-shifting, and frequency-shifting.
+### Laplace Convolution Theorem
 
 ### Inverse Laplace Transformation
 
-The inverse Laplace transform allows retrieving the original function from its Laplace transform.
 
-## 7. Fractional Fourier Transform
+## 7. [Fractional Fourier Transform](https://en.wikipedia.org/wiki/Fractional_Fourier_transform)
 
-The fractional Fourier transform generalizes the Fourier transform, providing intermediate representations between the time and frequency domains.
 
 ## 8. Fast Fourier Transform
+FFT is a particular algorithm used in DFT.
 
-The Fast Fourier Transform (FFT) is an efficient algorithm for computing the DFT, significantly reducing computational complexity from $O(N^2)$ to $O(N\log N)$. It is crucial in modern signal processing and numerical analysis.
+## 9. [Quantum Fourier Transform](https://en.wikipedia.org/wiki/Quantum_Fourier_transform)
 
-## 9. Quantum Fourier Transform
 
-The Quantum Fourier Transform (QFT) is the quantum analog of the classical Fourier transform, used in quantum algorithms like Shor's factoring algorithm.
+## 10. [Fourier Transform Spectroscopy](https://en.wikipedia.org/wiki/Fourier-transform_spectroscopy)
 
-## 10. Fourier Transform Spectroscopy
-
-Fourier transform spectroscopy leverages the Fourier transform to analyze the spectral components of signals, widely applied in fields such as optics and remote sensing.
 
 
 (to be modified)
