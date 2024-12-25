@@ -5,7 +5,7 @@
 - [Group Theory](/Phys/MP/AAT/group.html)
 - [Topology](/Phys/MP/AAT/Topology_basics.html)
 - Category Theory
-- [Symmetry in Music](./Sym_in_m/html)
+- [Symmetry in Music](./Sym_in_m.html)
 - Notable codes and programs
     - MusicTeX
     - music21 library in Python
