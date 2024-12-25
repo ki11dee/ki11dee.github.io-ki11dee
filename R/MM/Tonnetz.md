@@ -2,7 +2,6 @@
 
 ## Related Topics
 
-- [Group Theory](/Phys/MP/AAT/group.html)
 - [Topology](/Phys/MP/AAT/Topology_basics.html)
 - Category Theory
 - [Symmetry in Music](./Sym_in_m.html)
@@ -93,27 +92,26 @@ $$
 
 ### Maximum Parsimonious Voice Leading
 
-- Hexatonic Cycles
 
-The group $<R,L>$ acts on the set $Mm$. When the subgroup $H_1=<P,L>$ acts on the set $Mm$, it creates four orbits, each called a hexatonic cycle.
+1. Hexatonic Cycles
+    The group $<R,L>$ acts on the set $Mm$. When the subgroup $H_1=<P,L>$ acts on the set $Mm$, it creates four orbits, each called a hexatonic cycle.
 
-$$
+    $$
 \begin{aligned} o(C)&= \{C,c,G\#,g\#,E,e\} \\ o(C\#)&=\{C\#,c\#,A,a,F,f\} \\ o(D)&=\{D,d,A\#,a\#,F\#,f\#\} \\ o(D\#)&=\{ D\#,d\#,B,b,G,g \}\end{aligned}
-$$
+    $$
 
-- Octatonic Cycles
+2. Octatonic Cycles
+    When the subgroup $H_2=<P,R>$ of $<R,L>$ acts on the set $Mm$, it creates three orbits, each called an octatonic cycle.
 
-When the subgroup $H_2=<P,R>$ of $<R,L>$ acts on the set $Mm$, it creates three orbits, each called an octatonic cycle.
-
-$$
+    $$
 \begin{aligned} o(C)&=\{ C,c,D\#,d\#,F\#,f\#,A,a \} \\ o(C\#)&=\{C\#,c\#,E,e,G,g,A\#,a\#\} \\ o(D)&=\{D,d,F,f,G\#,g\#,B,b\}\end{aligned}
-$$
+    $$
 
-Analyzing transpositions through permutations, there are seven cases. In 12-tone equal temperament music, there are 12 notes so it seems there could be more than seven cases. However, in practice, this is unnecessary because the six cases with sharps and flats correspond equivalently to five cases, making additional cases redundant.
+    Analyzing transpositions through permutations, there are seven cases. In 12-tone equal temperament music, there are 12 notes so it seems there could be more than seven cases. However, in practice, this is unnecessary because the six cases with sharps and flats correspond equivalently to five cases, making additional cases redundant.
 
-- Hamiltonian Cycles
+3. Hamiltonian Cycles
 
-When the group $<P,L,R> \cong D_{12}$ acts on the set $Mm$, it creates only one orbit, meaning the set $Mm$ itself is the orbit. Since $LR$ is of order 12, alternately applying $R$ and $L$ traverses all 24 triads.
+    When the group $<P,L,R> \cong D_{12}$ acts on the set $Mm$, it creates only one orbit, meaning the set $Mm$ itself is the orbit. Since $LR$ is of order 12, alternately applying $R$ and $L$ traverses all 24 triads.
 
 
 ---
