@@ -36,7 +36,10 @@ One of the key properties of determinants: $\text{det}(A) = \sum a_{i1}A_{i1} = 
 - For Hermitian $A$, if $A = U \Lambda U^\dagger$ and $B = UAU^{-1}$, are the determinants of $A$ and $B$ equal? > Yes:  
 $\text{det}(B - \lambda I) = \text{det}(U(A - \lambda I)U^\dagger) = \text{det}(A - \lambda I)$
 
-- Is a Hermitian matrix always orthogonal? > No, but possible if it is real.
+- Is a Hermitian matrix $S$ always orthogonal? > No, but possible if it is real.  
+Becasue we arbitrarily set the eigenvectors orthognal, so $S^T=S^{-1}$. If including complex number, $S^\dagger S=\mathbb{1}$ (unitary). $A^H=S\lambda S^{-1}=U\Lambda U^\dagger$: spectral theorem
+
+- $H^\dagger =H$. Are there always two independent $\ket{x}$ satisfying $H \ket{x}=\lambda\ket{x}$? > no
 
 - Are $AB$'s eigenvalues the product of eigenvalues of $A$ and $B$? > No.  
   Example: $\sigma_x \sigma_y = i\sigma_z$. It holds when $AB = BA$ (commutative).
