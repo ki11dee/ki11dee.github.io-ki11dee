@@ -1,7 +1,7 @@
 # Mathematical Methods for Physics
 
 
-- [Linear Algebra]
+- Linear Algebra
     - [Linear Algebra - Brief Questions](./LA/linear_algebra.html)
     - [Map](./Map.html)
     - [Operator Theory](./LA/operator.html)
@@ -19,10 +19,9 @@
 
 - [Mathematical Logic](/P/logic.html)
 
-- [Group Theory](./group.html)
 - [Category Theory]
-- [Abstract Algebra and Topology]
+- Abstract Algebra, Groups, and Topology
+    - [Group Theory](./AAT/group.md)
     - [Symmetry and Topology Basics](./AAT/Topology_basics.html)
     - [Abstract Alebra Basics](./AAT/Abstract_basics.html)
-    - [Manifolds](./AAT/Manifolds.html)
     - [Differential Form](./AAT/Differential_form.html)
