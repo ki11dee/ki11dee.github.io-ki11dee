@@ -23,5 +23,5 @@
 - Abstract Algebra, Groups, and Topology
     - [Group Theory](./AAT/group.md)
     - [Symmetry and Topology Basics](./AAT/Topology_basics.html)
-    - [Abstract Alebra Basics](./AAT/Abstract_basics.html)
+    - [Abstract Algebra Basics](./AAT/Abstract_basics.html)
     - [Differential Form](./AAT/Differential_form.html)
