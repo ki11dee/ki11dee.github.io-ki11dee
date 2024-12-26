@@ -33,7 +33,7 @@ $$
 
 Let us represent $D_{2n}$ group of transpositions and inversions ([T/I group](https://alpof.wordpress.com/2013/11/02/an-introduction-to-neo-riemannian-theory-5/)). This group acts transitively on the set of $2n$ major and minor triads. For 12 equal temperament, $n=12$. The T/I group and the set of major and minor chords form a General Interval System, which means any progression of chords using unique group elements, transpositions and inversions from $D_{24}$ can be analyzed.
 
-### [Neo-Riemannian theory](https://en.wikipedia.org/wiki/Neo-Riemannian_theory)
+### Neo-Riemannian theory
 
 Neo-Riemannian theory is a music theory that directly analyzes relationships between chords without relying on the tonic, focusing on a transformational point of view among chords. Put simply, this theory characterizes harmonic progressions not based on tonal function but instead on parsimonious [voice leading](https://en.wikipedia.org/wiki/Voice_leading).  
 In Neo-Riemannian theory, harmonic ideas are visualized as geometric structures that represent relationships between chords. This is called the [tonnetz](https://en.wikipedia.org/wiki/Tonnetz) (German for ‘tone network’). The first rectangular Tonnetz was proposed by mathematician Leonhard Euler, and it was later developed into the hexagonal Neo-Riemannian Tonnetz and the triangular Oettingen-Riemann Tonnetz. Neo-Riemannian theory assumes enharmonic equivalence (e.g., A$\flat$=G#), making the two-dimensional Tonnetz cyclic in two directions and mathematically isomorphic to a torus.
