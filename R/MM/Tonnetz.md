@@ -36,7 +36,7 @@ Let us represent $D_{2n}$ group of transpositions and inversions ([T/I group](ht
 ### Neo-Riemannian theory
 
 Neo-Riemannian theory is a music theory that directly analyzes relationships between chords without relying on the tonic, focusing on a transformational point of view among chords. Put simply, this theory characterizes harmonic progressions not based on tonal function but instead on parsimonious [voice leading](https://en.wikipedia.org/wiki/Voice_leading).  
-In Neo-Riemannian theory, harmonic ideas are visualized as geometric structures that represent relationships between chords. This is called the [tonnetz](https://en.wikipedia.org/wiki/Tonnetz) (German for ‘tone network’). The first rectangular Tonnetz was proposed by mathematician Leonhard Euler, and it was later developed into the hexagonal Neo-Riemannian Tonnetz and the triangular Oettingen-Riemann Tonnetz. Neo-Riemannian theory assumes enharmonic equivalence (e.g., A$\flat$=G#), making the two-dimensional Tonnetz cyclic in two directions and mathematically isomorphic to a torus.
+In neo-Riemannian theory, harmonic ideas are visualized as geometric structures that represent relationships between chords. This is called the [tonnetz](https://en.wikipedia.org/wiki/Tonnetz) (German for ‘tone network’). The first rectangular Tonnetz was proposed by mathematician Leonhard Euler, and it was later developed into the hexagonal neo-Riemannian Tonnetz and the triangular Oettingen-Riemann Tonnetz. Neo-Riemannian theory assumes enharmonic equivalence (e.g., A$\flat$=G#), making the two-dimensional Tonnetz cyclic in two directions and mathematically isomorphic to a torus.
 
 ### Harmonic Transformations
 
@@ -87,7 +87,9 @@ $$
 For $D_{2n}$ of order $2n$:
 
 $$
+\begin{aligned}
 <P,L> \cong D_n \\ <P,R> \cong D_n \\ <P,L,R> = <L,R> \cong D_{12}
+\end{aligned}
 $$
 
 ### Maximum Parsimonious Voice Leading
@@ -121,11 +123,13 @@ $$
 
 [Neo-Riemannian Theory](https://en.wikipedia.org/wiki/Neo-Riemannian_theory) 2
 
-[An Introduction to Neo-Riemannian Theory](https://alpof.wordpress.com/category/music/math-music/neo-riemannian-theory/): this blog explains the theory very well.
+[An Introduction to neo-Riemannian Theory](https://alpof.wordpress.com/category/music/math-music/neo-riemannian-theory/): this blog explains the theory very well.
 
 [Neo-Riemannian Triadic Progressions](https://viva.pressbooks.pub/openmusictheory/chapter/neo-riemannian-triadic-progressions/)
 
 [Cycling in Tonal Space](https://www.gmth.de/zeitschrift/artikel/1009.aspx)
+
+[Group Actions in neo-Riemannian Music Theory](https://www-personal.umd.umich.edu/~tmfiore/1/mathmusiccolloquiumslides.pdf)
 
 [*Generalized Tonnetz*](https://dmitri.mycpanel.princeton.edu/tonnetzes.pdf), Dmitri Tymoczko
 
