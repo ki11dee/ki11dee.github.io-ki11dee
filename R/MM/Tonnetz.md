@@ -46,7 +46,7 @@ The main transformation operations in the Tonnetz are based on parsimonious voic
 
 ![Transformations](https://storage.gmth.de/zgmth/media/1009/Rieke_Tonnetz_01.png)
 
-PLR-group $G=<P,L,R\|P=R(LR)^3,(LR)^{12}=P^2=(PLR)^2=1>$is isomorphic to T/I group $D_{24}$.
+PLR-group $G=<P,L,R\|P=R(LR)^3,(LR)^{12}=P^2=(PLR)^2=1>$ is isomorphic to T/I group $D_{24}$.
 
 - Relative
 

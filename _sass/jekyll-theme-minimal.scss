@@ -4,9 +4,18 @@
 body {
   background-color: #1d178f;
   padding:50px;
-  font: 14px/1.5 "Lucida Console", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 "Perfect DOS VGA 437", "Lucida Console", "Courier New", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
   color:#c2c2c2;
   font-weight:400;
+}
+
+@font-face {
+  font-family: 'Perfect DOS VGA 437';
+  src: url('/_sass/Perfect\ DOS\ VGA\ 437\ Win.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Perfect DOS VGA 437', monospace;
 }
 
 ::selection {
