@@ -46,18 +46,13 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <nav class="social-links">
-          <ul>
-            {% for link in site.social_links %}
-              <li>
-                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
-                  <i class="fa {{ link.icon }}"></i>
-                  <span>{{ link.name }}</span>
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </nav>
+        <div class="social-links">
+          {% for link in site.social_links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+              <img src="{{ link.icon }}" alt="{{ link.name }}" style="width: 24px; height: 24px;">
+            </a>
+          {% endfor %}
+        </div>        
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
