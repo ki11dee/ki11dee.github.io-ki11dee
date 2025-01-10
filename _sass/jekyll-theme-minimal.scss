@@ -4,18 +4,10 @@
 body {
   background-color: #1d178f;
   padding:50px;
-  font: 14px/1.5 "Perfect DOS VGA 437", "Lucida Console", "Courier New", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
+  font: 19px/1.3 "VT323", "Courier New", monospace;
+  letter-spacing: -0.5px;
   color:#c2c2c2;
   font-weight:400;
-}
-
-@font-face {
-  font-family: 'Perfect DOS VGA 437';
-  src: url('/_sass/Perfect\ DOS\ VGA\ 437\ Win.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Perfect DOS VGA 437', monospace;
 }
 
 ::selection {
@@ -37,15 +29,19 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  color:#ffffff;
+  text-shadow: 2px 2px 2px #4a1212cc;
+  font-size:35px;
 }
 
 h2 {
   color:#eaeaea;
+  text-shadow: 1px 1px 1px #636363cc;
 }
 
 h3, h4, h5, h6 {
   color:#eaeaea;
+  text-shadow: 1px 1px 1px #636363cc;
 }
 
 a {
@@ -54,19 +50,19 @@ a {
 }
 
 a:hover, a:focus {
-  color:#FF5555;
+  color:#ff0000;
   font-weight: bold;
 }
 
 a small {
   font-size:11px;
-  color:#FF5555;
+  color:#ff0000;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#FF5555;
+  color:#ff0000;
 }
 
 .wrapper {
@@ -82,6 +78,7 @@ blockquote {
 }
 
 pre, code, pre code {
+  font: 14px/1.5 "Courier New";
   background-color: #000000 !important;
   color: #d3d3d3 !important;
   padding: 3px;
@@ -179,7 +176,7 @@ ul.downloads {
 }
 
 strong {
-  color:#FFFFFF;
+  color:#00ff00;
   font-weight:700;
 }
 
