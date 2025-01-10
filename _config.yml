@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: '|&lt;◊|ψ&gt;|²'
-logo : /assets/img/santahat.png
+logo : /assets/img/24eds.png
 description: >- # this means to ignore newlines until "baseurl:"
   Popcorn Parrot
   
