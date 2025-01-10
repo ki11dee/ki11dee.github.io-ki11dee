@@ -2,15 +2,20 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
+  background-color: #1d178f;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 14px/1.5 "Lucida Console", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#c2c2c2;
   font-weight:400;
 }
 
+::selection {
+  background-color: #00ff00;
+  color: #000000;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#eaeaea;
   margin:0 0 20px;
 }
 
@@ -24,60 +29,54 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 h2 {
-  color:#393939;
+  color:#eaeaea;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#eaeaea;
 }
 
 a {
-  color:#267CB9;
+  color:#FFF000;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:#FF5555;
   font-weight: bold;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#FF5555;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#FF5555;
 }
 
 .wrapper {
-  width:860px;
+  width:900px;
   margin:0 auto;
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #000000;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
 }
 
-code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
-}
-
-pre {
-  padding:8px 15px;
-  background: #f8f8f8;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
+pre, code, pre code {
+  background-color: #000000 !important;
+  color: #d3d3d3 !important;
+  padding: 3px;
+  border: 1px solid #000000;
   overflow-x: auto;
 }
 
@@ -93,12 +92,12 @@ th, td {
 }
 
 dt {
-  color:#444;
+  color:#FF5555;
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:#FF5555;
 }
 
 img {
@@ -162,7 +161,7 @@ ul.downloads {
 }
 
 .downloads a:hover, .downloads a:focus {
-  color:#675C5C;
+  color:#FF5555;
   font-weight:bold;
 }
 
@@ -171,7 +170,7 @@ ul.downloads {
 }
 
 strong {
-  color:#222;
+  color:#FFFFFF;
   font-weight:700;
 }
 
@@ -183,11 +182,11 @@ strong {
 .downloads a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#FF5555;
 }
 
 section {
-  width:500px;
+  width:600px;
   float:right;
   padding-bottom:50px;
 }
@@ -225,7 +224,7 @@ footer {
   }
 
   header {
-    padding-right:320px;
+    padding: right 620px;
   }
 
   section {
@@ -282,28 +281,28 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#ff00d0;
   }
 }
 
-.snowflake {
-  position: fixed;
-  top: -10px;
-  color: #F0F0F0;
-  font-size: 1em;
-  user-select: none;
-  pointer-events: none;
-  z-index: 9999;
-  animation: fall linear infinite;
-}
+// .snowflake {
+//   position: fixed;
+//   top: -10px;
+//   color: #F0F0F0;
+//   font-size: 1em;
+//   user-select: none;
+//   pointer-events: none;
+//   z-index: 9999;
+//   animation: fall linear infinite;
+// }
 
-@keyframes fall {
-  0% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(calc(100vh + 10px)) rotate(360deg);
-    opacity: 0.5;
-  }
-}
+// @keyframes fall {
+//   0% {
+//     transform: translateY(0) rotate(0deg);
+//     opacity: 1;
+//   }
+//   100% {
+//     transform: translateY(calc(100vh + 10px)) rotate(360deg);
+//     opacity: 0.5;
+//   }
+// }

@@ -2,6 +2,9 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/monokai.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script type="text/javascript">
       MathJax = {
         tex: {
@@ -72,6 +75,7 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
+  <!--
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const createSnowflake = () => {
@@ -89,4 +93,5 @@
       setInterval(createSnowflake, 800);
     });
   </script>
+  -->
 </html>
