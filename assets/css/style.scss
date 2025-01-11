@@ -38,15 +38,16 @@ pre {
   position: absolute; /* 절대 위치 지정 */
   top: 10px; /* 상단 여백 */
   right: 10px; /* 오른쪽 여백 */
-  background-color: #007bff;
-  color: #ffffff;
+  text-shadow: 1px 1px 1px #6a1111;
+  background-color: #a5a5a5;
+  color: #242424;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
 }
 
 .copy-button:hover {
-  background-color: #0056b3;
+  background-color: #737373;
 }
 
 /* assets/css/main.css */

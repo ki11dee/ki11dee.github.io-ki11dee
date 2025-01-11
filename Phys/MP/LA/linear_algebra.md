@@ -49,4 +49,3 @@ Becasue we arbitrarily set the eigenvectors orthognal, so $S^T=S^{-1}$. If inclu
   - If $Ax = \lambda x$ and $\lambda$ is a simple eigenvalue, is $x = cx'$?
 
 - If eigenvalues are not distinct, can eigenvectors for repeated eigenvalues form a linearly independent set? > Use geometric reasoning. (How?)
-
