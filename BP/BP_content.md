@@ -1,6 +1,6 @@
 # BP
 
-*I made [a new blog]() for my arts written in korean!*
+*I made [a new blog](https://ki11dee.github.io/popcornparrot/) for my arts written in korean!*
 
 - [Death and the Good ](./DG/dg.html)
 - [Short Sketches and typescripts]
