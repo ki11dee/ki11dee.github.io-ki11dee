@@ -21,7 +21,7 @@
 title: '|&lt;◊|ψ&gt;|²'
 logo :
 description: >- # this means to ignore newlines until "baseurl:"
-  Popcorn Parrot
+  <a href='https://ki11dee.github.io/popcornparrot/'>Popcorn Parrot</a>
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ki11dee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,6 +32,9 @@ social_links:
   - name: Tumblr
     url: https://kil1dee.tumblr.com/
     icon: /assets/img/tumblr.png
+  - name: Bluesky
+    url: https://bsky.app/profile/vkqzhs0-0.bsky.social
+    icon: /assets/img/bluesky.png
 
 # Build settings
 theme: jekyll-theme-minimal
