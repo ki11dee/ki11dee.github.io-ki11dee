@@ -2,7 +2,7 @@
 
 
 - Linear Algebra
-    - [Linear Algebra - Brief Questions](./LA/linear_algebra.html)
+    - [Linear Algebra](./LA/linear_algebra.html)
     - [Map](./Map.html)
     - [Operator Theory](./LA/operator.html)
     - [Spectral Theory](./LA/Spectral.html)
@@ -20,8 +20,8 @@
 - [Mathematical Logic](/P/logic.html)
 
 - [Category Theory]
-- Abstract Algebra, Groups, and Topology
-    - [Group Theory](./AAT/group.md)
-    - [Symmetry and Topology Basics](./AAT/Topology_basics.html)
-    - [Abstract Algebra Basics](./AAT/Abstract_basics.html)
+- Abstract Algebra, Group, and Topology
+    - [Group Theory](./AAT/group.md)f
+    - [Symmetry and Topology](./AAT/Topology_basics.html)
+    - [Abstract Algebra](./AAT/Abstract_basics.html)
     - [Differential Form](./AAT/Differential_form.html)

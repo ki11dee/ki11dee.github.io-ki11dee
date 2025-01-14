@@ -1,6 +1,6 @@
 # BP
 
-*I made [a new blog](https://ki11dee.github.io/popcornparrot/) for my arts written in korean!*
+*I made [a new blog](https://ki11dee.github.io/popcornparrot/) for my arts (written in korean)!*
 
 - [Death and the Good ](./DG/dg.html)
 - [Short Sketches and typescripts]
@@ -10,8 +10,6 @@
 
 
 ## Overview of this Category
-
-![Hi](/assets/img/img.jpg)
 
 Why do I draw things? Actually I don't know. I just like to since I was a kid. This category is for uploading my arts-illustrations, comics, and doodles.
 
