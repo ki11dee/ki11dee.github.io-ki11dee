@@ -109,8 +109,11 @@ Note also that $\text{tr}f(M)=\text{tr}f(\Lambda)$. $f(x)$ doesn’t have to be 
 
 ### The direct product of matrices
 
-Given an $n \times n$ matrix $C_{ab}$ ($a,b=1,2,...,n$) and $n\nu \times n\nu$ matrix $\Gamma_{\alpha\beta}$($\alpha,\beta=1,2,...,\nu$), the direct produt $M = C \otimes \Gamma$ as the $n\nu \times n\nu$  matrix is defined by $M_{a\alpha,b\beta}=C_{ab}\Gamma_{\alpha\beta}$. Since $$M_{\alpha\alpha,b\beta}M'_{b\beta,c\gamma}=(C_{ab}C'_{bc})(\Gamma_{\alpha\beta}\Gamma'_{\beta\gamma})$$, $$MM'=(C \otimes \Gamma)(C' \otimes \Gamma')=(CC' \otimes \Gamma\Gamma')$$.
+Given an $n \times n$ matrix $C_{ab}$ ($a,b=1,2,...,n$) and $n\nu \times n\nu$ matrix $\Gamma_{\alpha\beta}$($\alpha,\beta=1,2,...,\nu$), the direct product $M = C \otimes \Gamma$ as the $n\nu \times n\nu$  matrix is defined by $M_{a\alpha,b\beta}=C_{ab}\Gamma_{\alpha\beta}$. Since $$M_{\alpha\alpha,b\beta}M'_{b\beta,c\gamma}=(C_{ab}C'_{bc})(\Gamma_{\alpha\beta}\Gamma'_{\beta\gamma})$$, $$MM'=(C \otimes \Gamma)(C' \otimes \Gamma')=(CC' \otimes \Gamma\Gamma')$$.
 
+### Polar decomposition
+Any matrix $M$ can be written as $M=HU$, with $H$ hermitian and $U$ unitary.  The polar decomposition theorem has a number of useful applications. Given a complex $n \times n$ matrix $M$, we can write $M=HU=VDV^\dagger U$. Thus $V^\dagger MW=D$ where $W=U^\dagger V$ is a unitary matrix, and $D$ is a positive real diagonal matrix. Let $\Psi$ denote a phase matrix $\text{diag}\{e^{i\psi_1},\cdots,i\psi_n\}$ then $\Psi^\dagger D\Psi=D$. Thus the theorem determines the two unitary matrices $V, W$ only up to $V \rightarrow V\Psi$ and $W \rightarrow W\Psi$.  
+Let $M=M^\dagger$ be symmetric, then transpose $$V^\dagger MW=D$$ to get $$W^T M^TV^*=W^TMV^*=D$$, so $$V^\dagger MW=W^TMV^*$$. Let us let $\Phi^2$ be an arbitrary phase matrix to deal with the phase degree of freedom. Then $$D=\Phi^{*2}D\Phi^2$$ so $$W=V^*\Phi^2$$, hence $$V^\dagger MW=D$$ becomes $$\Phi^{*2}W^TMW=D$$. Multiplying the equation by $\Phi$ from the left and $\Phi^*$ from the right, we obtain $$W^{'T}MW'=D$$ where $$W'=W\Phi^*$$. Thus, for a symmetric complex matrix $M$, there always exists a unitary matrix $W$ such that $W^TMW=D$ with $D$ positive real diagonal. In general, the diagonal elements of $D$ are not of $M$ because $W$ is unitary but not orthogonal.
 
 ### Brief Questions (and proofs)
 
