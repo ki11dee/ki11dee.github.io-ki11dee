@@ -1,7 +1,7 @@
 # Symmetry in Music
 
 ## Related Topics
-- [Group Theory](/Phys/MP/AAT/group.html)
+- [Group Theory](/Phys/MP/G/group.html)
 - [Abstract Algebra](/Phys/MP/AAT/Abstract_basics.html)
 
 ## 1. Symmetry

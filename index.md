@@ -12,8 +12,8 @@ Hi, I'm currently a physics major at university in South Korea. One reason I mad
 
 Main interests: 
 
-1. Physics, Art \| home base.  
-Additional tags [tag_link]():
+1. Physics, Art \| home base  
+Additional tags [(click the text)]():
 - Physics and Mathematics [PhyX](./Phys/Phys_content.html)
 - Some art portfolios [BP](./BP/BP_content.html)
 
